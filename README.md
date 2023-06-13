@@ -1,6 +1,6 @@
 # Simple Chat
 
-> streamlit 기반 chat
+> streamlit 기반 chatbot
 
 ## 사용법
 ### 공통
@@ -9,11 +9,16 @@ app home 디렉토리에 config 파일(config.toml) 생성
 
 ```toml
 [azure]
+use = false  # 사용 여부
 openai_resource_name = "xxxxxxxxxxx"
 openai_deployment_name = "xxxxxxxxxxxx"
 api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 api_version = "0000-00-00"
 operation_name = "xxxxxxxxxxxxxxxx"
+
+[huggingface]
+use = true  # 사용 여부
+model = "skt/kogpt2-base-v2"
 ```
 
 ### 로컬 실행
