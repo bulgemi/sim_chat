@@ -1,0 +1,12 @@
+[azure]
+use = false
+openai_resource_name = ""
+openai_deployment_name = ""
+api_key = ""
+api_version = ""
+operation_name = ""
+
+[huggingface]
+use = true
+model = "skt/kogpt2-base-v2"
+#model = "momo/gpt2-kiosk"
