@@ -45,3 +45,4 @@ docker build -t streamlit-simplechat .
 docker run -d -p 8501:8501 streamlit-simplechat
 ```
 4. app 접속: http://localhost:8501/
+![screenshot](docs/screenshot.png)
